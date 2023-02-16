@@ -1,0 +1,21 @@
+//Here is an example:
+
+
+function add(x, y) {
+    return x + y
+}
+
+function multiply(a, b, c) { // a = 1, b = 2, c = 3
+    const num1 = add(a, b) // num1 = add(1, 2) = 3
+    const num2 = add(b, c) // num2 = add(2, 3) = 5
+
+    return num1 * num2 // 15
+}
+
+multiply(1, 2, 3)
+// returns 15
+
+````````````````````````````````````````````````````````````````````````````````````````````````````````````
+1.The first function add() has two parameters, x and y. The function returns the addition of the two parameters.
+2.The second function multiply() has three parameters: inside the function, two variables are declared in it, num1 and num2. num1
+3.multiply is called with three arguments which are 1, 2 and 3. add(a, b)
