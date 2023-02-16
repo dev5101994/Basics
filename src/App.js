@@ -26,7 +26,7 @@ function App() {
       {/* <PropsA /> */}
       {/* <Usememo /> */}
       {/* <UseCallbacks /> */}
-      <UseEffecthooks />
+      {/* <UseEffecthooks /> */}
       {/* <Userefhooks /> */}
       {/* <Userefhook2 /> */}
       {/* <Mapvsforeach />  */}
