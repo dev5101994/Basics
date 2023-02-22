@@ -17,6 +17,8 @@ import HoistingA from './hoisting/hoistingA';
 import ToggleBooleon from './toggleBooleon/toggleBooleon';
 import Agevalidation from './ageValidation/Agevalidation';
 import Form from './form/Form';
+import Controlled from './controlled&uncontrolledComponent/Controlled';
+import Uncontrolled from './controlled&uncontrolledComponent/Uncontrolled'
 
 function App() {
   return (
@@ -40,7 +42,8 @@ function App() {
       {/* <ToggleBooleon /> */}
       {/* <Agevalidation /> */}
       {/* <Form /> */}
-
+      {/* <Controlled /> */}
+      <Uncontrolled />
     </div>
   );
 }
