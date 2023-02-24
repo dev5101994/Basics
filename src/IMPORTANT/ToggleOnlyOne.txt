@@ -1,0 +1,36 @@
+<Row> 
+        <FormGroup switch> 
+          <Input 
+            type="switch" 
+            checked={state === "1"} 
+            onClick={() => { 
+              setState("1"); 
+            }} 
+          /> 
+         
+        </FormGroup> 
+        <FormGroup switch> 
+          <Input 
+            type="switch" 
+            checked={state === "2"} 
+            onClick={() => { 
+              setState("2"); 
+            }} 
+          /> 
+         
+        </FormGroup> 
+        <FormGroup switch> 
+          <Input 
+            type="switch" 
+            checked={state === "3"} 
+            onClick={() => { 
+              setState("3"); 
+            }} 
+          /> 
+         
+        </FormGroup> 
+      </Row>
+
+const [state, setState] = useState("1");
+
+import { Form, FormGroup, Label, Input } from 'reactstrap';
