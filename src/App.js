@@ -19,6 +19,7 @@ import Agevalidation from './ageValidation/Agevalidation';
 import Form from './form/Form';
 import Controlled from './controlled&uncontrolledComponent/Controlled';
 import Uncontrolled from './controlled&uncontrolledComponent/Uncontrolled'
+import HOC from './HOC/HOC';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
       {/* <Agevalidation /> */}
       {/* <Form /> */}
       {/* <Controlled /> */}
-      <Uncontrolled />
+      {/* <Uncontrolled /> */}
+      <HOC />
     </div>
   );
 }
