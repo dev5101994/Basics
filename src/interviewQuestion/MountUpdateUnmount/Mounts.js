@@ -2,7 +2,7 @@
 
 useEffect(() => {
 
-})
+}, [])
 
 //component update
 useEffect(() => {
