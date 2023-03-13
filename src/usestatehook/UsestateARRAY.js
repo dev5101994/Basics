@@ -6,7 +6,7 @@ const Usestate2 = () => {
 
     function addItems(){
 
-        setItem([...items,{//object     //spread operater array  copy hai
+        setItem([...items,{//object Array andar hai     //spread operater array  copy hai
             id:items.length,
             value:"Pen"
         }])

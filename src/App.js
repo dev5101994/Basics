@@ -41,11 +41,11 @@ function App() {
       {/* <LiftingstateupA /> */}
       {/* <HoistingA /> */}
       {/* <ToggleBooleon /> */}
-      {/* <Agevalidation /> */}
+      <Agevalidation />
       {/* <Form /> */}
       {/* <Controlled /> */}
       {/* <Uncontrolled /> */}
-      <HOC />
+      {/* <HOC /> */}
     </div>
   );
 }

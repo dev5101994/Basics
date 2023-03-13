@@ -1,0 +1,52 @@
+INTERVIEW QUESTION
+
+Local vs session storage
+React fragment
+Async vs Await
+Use Context (prop drilling)
+Use callback
+UseReducer
+Useeffect《mount,update,unmount》
+State
+Hooks
+Flex,pmb,
+REDUX=ACTION, REDUCER,STORE
+ECMA
+CRUD
+How to run REACT
+State
+Axios
+Destructring
+UseCallback vs useMemo
+Props vs State
+Closure
+What is REACT JS,and its work
+React ES 6 new feature
+SetTimeOut,SetInterval
+Controlled vs UnControlled
+High order component
+Rest
+HOC
+Pure Component = useMemo
+Callbackhell=Promise=Await
+React (single or multiple thred)
+Eventloop
+(VAR,LET,CONST)
+Callback function
+Event Bubbling
+
+How many argument hold Promise/
+
+What is Map, Filter And Reduce/
+
+How many scopes are in Javascript/
+
+How many scopes are in Javascript/
+
+What is Call,Apply and Bind/
+
+What is Memoization/
+
+What is spread Operator and Rest Operator
+
+/What is one-way DataBinding/

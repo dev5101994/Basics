@@ -10,11 +10,16 @@ const Userefhooks = () => {
         setName("");
         refElement.current.focus()
     }
+    function handleInputChange() {
+        refElement.current.style.color = "blue";
+    }
     return (
         <>
             <h1>userefhooks</h1>
-            <input type="text" value={name} onchange={(e) => setName(e.target.value)}></input>
+            {/* <input type="text" value={name} onchange={(e) => setName(e.target.value)}></input> */}
+            <input ref={refElement} value={name} onChange={(e) => setName(e.target.value)}></input>
             <button onClick={Reset}>Reset</button>
+            <button onClick={handleInputChange}>handleInputChange</button>
         </>
     )
 }
