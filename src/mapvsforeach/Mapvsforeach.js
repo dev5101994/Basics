@@ -26,3 +26,20 @@ function Mapvsforeach() {
 }
 
 export default Mapvsforeach
+
+
+
+
+// sandbox
+
+//map
+// const numArr = [1, 2, 3];
+
+// const res = numArr.map((e) => e * 2);
+
+// console.log("res",res);
+
+// //ForEach
+// const res2=numArr.forEach((val,i,arr)=>(arr[i]=val*2));
+// console.log("res2",res2)
+// console.log("numArr",numArr)//for each mutes the num array

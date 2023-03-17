@@ -20,6 +20,7 @@ import Form from './form/Form';
 import Controlled from './controlled&uncontrolledComponent/Controlled';
 import Uncontrolled from './controlled&uncontrolledComponent/Uncontrolled'
 import HOC from './HOC/HOC';
+import Parents from './passDataParenteTOchild/childToparents/Parents';
 
 function App() {
   return (
@@ -41,11 +42,13 @@ function App() {
       {/* <LiftingstateupA /> */}
       {/* <HoistingA /> */}
       {/* <ToggleBooleon /> */}
-      <Agevalidation />
+      {/* <Agevalidation /> */}
       {/* <Form /> */}
       {/* <Controlled /> */}
       {/* <Uncontrolled /> */}
       {/* <HOC /> */}
+      <Parents />
+
     </div>
   );
 }
