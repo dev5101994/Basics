@@ -21,7 +21,7 @@ import Controlled from './controlled&uncontrolledComponent/Controlled';
 import Uncontrolled from './controlled&uncontrolledComponent/Uncontrolled'
 import HOC from './HOC/HOC';
 import Parents from './passDataParenteTOchild/childToparents/Parents';
-
+// import Usememo2 from './usememo/Usememo2';
 function App() {
   return (
     <div className="App">
@@ -48,6 +48,7 @@ function App() {
       {/* <Uncontrolled /> */}
       {/* <HOC /> */}
       <Parents />
+      {/* <Usememo2 /> */}
 
     </div>
   );

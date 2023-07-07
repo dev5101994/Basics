@@ -17,6 +17,7 @@ function Usestate1() {
             <h1>{count}</h1>
             <button onClick={Increment}>INCREMENT</button>
             <button onClick={Decrement}>DECREMENT</button>
+            {/* <button onClick={() => setCount(count + 1)}>Add</button> */}
         </>
     )
 }
